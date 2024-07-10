@@ -1,0 +1,112 @@
+.nav-link:hover {
+    background-color: #555;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f6efef;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about, #skills, #projects, #contact {
+    margin-bottom: auto;
+}
+span.about {
+    color: rgb(39, 20, 78);
+    
+}
+
+.project {
+    box-shadow: 8px 8px 5px #444;
+    border: 1px solid #333;
+    border: 1px solid #d6acac;
+    padding: 1em;
+    margin-bottom: 1rem;
+}
+.project:hover{
+    color: rgb(29, 29, 133);
+}
+.skills:hover{
+    color: rgb(120, 19, 19);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#form-message {
+    color: rgb(113, 19, 19);
+}
+
+/* Default styles for all devices */
+.container {
+    width: 100%; /* Takes full width of the viewport */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  }
+  
+  /* Media query for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  }
+  
+  /* Media query for smartphones and smaller devices */
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px; /* Further reduce padding on smaller screens */
+    }
+  }

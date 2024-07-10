@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><b>My Portfolio</b></a>
+            
+        <div class ="collapse navbar-collapse" id ="navbarNav"> 
+            
+            
+            <ul class ="navbar-nav ml-auto">
+                <li class ="nav-items">
+                    <a class="nav-link" href="#about" ><b>About</b></a>
+                </li>
+                <li class ="nav-items">
+                    <a class="nav-link" href="#skills"><b>Skills</b></a>
+                </li>
+                <li class ="nav-items">
+                    <a class="nav-link" href="#projects"><b>Projects</b></a>
+                </li>
+                <li class ="nav-items">
+                    <a class="nav-link" href="#contact"><b>Contact</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>         
+
+    <section id="about" >
+        <h1><b>About Me</b></h1>
+        <div class="about">
+        <p>Hello! I'm <span class="about"><b>Vedika Ambadkar</b></span>, As an electrical engineering student, I'm driven by a curiosity to understand how things work and a passion to create innovative solutions. With a solid understanding of electrical engineering and programming, I'm excited to explore new ideas and collaborate on projects that drive progress.
+            Moreover, I'm enthusiastic about AI, ML, data science, and business intelligence.
+            Eager to learn and grow, I'm open to new opportunities and experiences.!</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2><b>Skills</b></h2>
+        <div class="skills">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>Basic Java</li>
+            <li>Python</li>
+            <li>AI/ML</li>
+            <li>Electrical circuit</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2><b>Projects</b></h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <h5><i>OFF Timer monostable circuit:</i></h5>
+            <img src="project1.jpg" height="200" alt="project 1">
+            <p>● An off timer (monostable) circuit is controlled for washing machine which is designed and developed in the research. The 
+                device uses switches, a comparator unit, relay switch, etc. to automatically off the system, to enhance the connectivity heat 
+                transfer. <br>
+                ● The developed off timer automatically stops its execution speed in which is set to the relay. The operation of this innovation 
+                device makes it suitable for users who may not be able to access the manual timer.<br></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <h5><i>Smart grid Maintenance based robot:</i></h5>
+            <img src="project2.jpg" height="200" alt="project 2">
+            <p>● Conducted extensive literature review on smart grid technologies by analyzing research papers from reputable sources such 
+                as IEEE.<br>
+                ● Designed and developed a comprehensive presentation on smart grid monitoring and Maintenance based robotics.<br>
+                ● Presented findings and insights in front of professors, demonstrating effective communication skills and a deep understanding 
+                of the subject matter.<br></p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <h5><i>Traffic flow prediction system:</i></h5>
+            <img src="project3.jpg" height="200" alt="project 3">
+            <p>
+                ● Create a model of Traffic flow predicion using ARIMA model and machine learnig algorithms. Collected and analyzed data from various sources.<br>
+                ● Worked on Big DataSets and conducted several tests for accuracy of model.<br>
+                ● As a Result, our model has surpassed 93% of accuracy. This model is has ability to adapt the changes.<br>
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><b>Contact Me</b></h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
